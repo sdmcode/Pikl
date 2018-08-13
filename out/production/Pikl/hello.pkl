@@ -1,0 +1,26 @@
+fun sayHi(first, last) {
+  print "Hi, " + first + " " + last + "!";
+  print 460.0 * 2.88;
+  print 1 + 9;
+  print 0 / 4;
+  print clock;
+  
+  var start = clock();
+  
+  for (var i = 0; i < 1000000; i = i + 1) { 
+	var f = "null really"; 
+  }
+  
+  print (clock() - start) * 1000.0;
+  
+  print "here?";
+}
+
+fun win() {
+	print "winner";
+	return 6;
+}
+
+
+sayHi("Dear", "Reader");
+print win() + win();

@@ -1,0 +1,19 @@
+class Doughnut {
+  cook() {
+    print "Fry until golden brown.";
+    print "Place in a nice box.";
+  }
+}
+
+class BostonCream < Doughnut {
+  cook() {
+	HEYLOL();
+    print "Pipe full of custard and coat with chocolate.";
+  }
+}
+
+fun HEYLOL() {
+	print "this actually works";
+}
+
+BostonCream().cook();
